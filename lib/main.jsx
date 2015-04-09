@@ -1,8 +1,11 @@
 /** @jsx React.DOM */
 import _ from 'lodash';
 import React from 'react';
+import ComplaintBody from './components/ComplaintBody.jsx!';
 
 React.render(
-  <h1>Hello, world!</h1>,
-  document.body
+  <div className="content">
+    <h1>Complaint generator generator</h1>
+    <ComplaintBody/>
+  </div>, document.body
 );
